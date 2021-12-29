@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.3.91?>
+<InitParameter Version="2.42.0" NcSwId="ACP10">
+  <Group ID="ACP10VAXIS_typ">
+    <Group ID="limit">
+      <Group ID="parameter">
+        <Parameter ID="t_jolt" Value="0" />
+      </Group>
+    </Group>
+    <Group ID="move">
+      <Group ID="stop">
+        <Group ID="parameter[0]">
+          <Parameter ID="decel_ramp" Value="ncA_MOVE" />
+        </Group>
+        <Group ID="parameter[1]">
+          <Parameter ID="decel_ramp" Value="ncA_MOVE" />
+        </Group>
+        <Group ID="parameter[2]">
+          <Parameter ID="decel_ramp" Value="ncA_MOVE" />
+        </Group>
+        <Group ID="parameter[3]">
+          <Parameter ID="decel_ramp" Value="ncA_MOVE" />
+        </Group>
+      </Group>
+      <Group ID="homing">
+        <Group ID="parameter">
+          <Parameter ID="s" Value="0" />
+        </Group>
+      </Group>
+      <Group ID="basis">
+        <Group ID="parameter">
+          <Parameter ID="v_pos" Value="5000" />
+          <Parameter ID="v_neg" Value="5000" />
+          <Parameter ID="a1_pos" Value="50000" />
+          <Parameter ID="a2_pos" Value="50000" />
+          <Parameter ID="a1_neg" Value="50000" />
+          <Parameter ID="a2_neg" Value="50000" />
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="message">
+      <Group ID="text">
+        <Group ID="parameter">
+          <Parameter ID="format" Value="ncBREAK" />
+          <Parameter ID="columns" Value="80" />
+          <Parameter ID="data_modul" />
+        </Group>
+      </Group>
+    </Group>
+  </Group>
+</InitParameter>
